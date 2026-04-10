@@ -1,0 +1,45 @@
+.home-bio {
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.home-meta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.home-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.home-quick {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.home-quick-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+
+.home-quick-item:hover {
+  border-color: #4f9eff;
+}
+
+@media (max-width: 500px) {
+  .home-quick { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,21 @@
+.resources-sub { margin-bottom: 32px; }
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.resource-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resource-btn {
+  padding-left: 4px;
+}
+
+@media (max-width: 600px) {
+  .resources-grid { grid-template-columns: 1fr; }
+}

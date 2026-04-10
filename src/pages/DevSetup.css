@@ -1,0 +1,36 @@
+.setup-sub { margin-bottom: 32px; }
+
+.setup-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.setup-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.setup-table-wrap {
+  overflow-x: auto;
+}
+
+.setup-card {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.setup-font-preview {
+  background: #111111;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-family: 'JetBrains Mono', monospace;
+  margin-top: 4px;
+}

@@ -1,0 +1,11 @@
+.skills-sub { margin-bottom: 32px; }
+
+.skills-table-wrap {
+  overflow-x: auto;
+}
+
+.skills-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
