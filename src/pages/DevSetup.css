@@ -1,4 +1,6 @@
-.setup-sub { margin-bottom: 32px; }
+.setup-sub {
+  margin-bottom: 32px;
+}
 
 .setup-sections {
   display: flex;

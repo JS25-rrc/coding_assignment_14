@@ -5,7 +5,7 @@ import Text from '../components/Text/Text';
 import { personalInfo } from '../data/portfolio';
 import { Page } from '../App';
 import './Home.css';
-import jasDhaliwal from "../assets/IMG_1345.png"
+import jasDhaliwal from '../assets/IMG_1345.png';
 
 interface Props {
   navigate: (p: Page) => void;
@@ -22,11 +22,7 @@ const Home: React.FC<Props> = ({ navigate }) => (
     />
 
     <div className="home-bio">
-      <Text
-        content={personalInfo.bio}
-        color="#aaaaaa"
-        fontSize="1rem"
-      />
+      <Text content={personalInfo.bio} color="#aaaaaa" fontSize="1rem" />
       <div className="home-meta">
         <Text content={personalInfo.school} color="#666666" fontSize="0.9rem" />
         <Text content={personalInfo.location} color="#666666" fontSize="0.9rem" />

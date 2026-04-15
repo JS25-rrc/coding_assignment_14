@@ -13,11 +13,16 @@ const App: React.FC = () => {
 
   const render = () => {
     switch (page) {
-      case 'home': return <Home navigate={setPage} />;
-      case 'work': return <Work />;
-      case 'skills': return <Skills />;
-      case 'resources': return <Resources />;
-      case 'setup': return <DevSetup />;
+      case 'home':
+        return <Home navigate={setPage} />;
+      case 'work':
+        return <Work />;
+      case 'skills':
+        return <Skills />;
+      case 'resources':
+        return <Resources />;
+      case 'setup':
+        return <DevSetup />;
     }
   };
 

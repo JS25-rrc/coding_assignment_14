@@ -14,7 +14,13 @@ const DevSetup: React.FC = () => (
 
     <div className="setup-sections">
       <div className="setup-section">
-        <Text content="VS Code Extensions" as="h2" fontSize="1rem" fontWeight="600" color="#4f9eff" />
+        <Text
+          content="VS Code Extensions"
+          as="h2"
+          fontSize="1rem"
+          fontWeight="600"
+          color="#4f9eff"
+        />
         <div className="setup-table-wrap">
           <Table backgroundColor="#1a1a1a" color="#eeeeee">
             <TableHeader backgroundColor="#1e2a3a" color="#4f9eff">
@@ -49,7 +55,12 @@ const DevSetup: React.FC = () => (
       <div className="setup-section">
         <Text content="Preferred Font" as="h2" fontSize="1rem" fontWeight="600" color="#4f9eff" />
         <div className="setup-card">
-          <Label text={devSetup.font} backgroundColor="rgba(79,158,255,0.1)" color="#4f9eff" fontSize="1.1rem" />
+          <Label
+            text={devSetup.font}
+            backgroundColor="rgba(79,158,255,0.1)"
+            color="#4f9eff"
+            fontSize="1.1rem"
+          />
           <div className="setup-font-preview">
             <Text
               content="const greet = (name: string) => `Hello, ${name}`"

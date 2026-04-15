@@ -1,4 +1,6 @@
-.work-sub { margin-bottom: 32px; }
+.work-sub {
+  margin-bottom: 32px;
+}
 
 .work-list {
   display: flex;

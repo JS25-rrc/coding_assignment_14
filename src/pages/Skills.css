@@ -1,4 +1,6 @@
-.skills-sub { margin-bottom: 32px; }
+.skills-sub {
+  margin-bottom: 32px;
+}
 
 .skills-table-wrap {
   overflow-x: auto;

@@ -1,4 +1,6 @@
-.resources-sub { margin-bottom: 32px; }
+.resources-sub {
+  margin-bottom: 32px;
+}
 
 .resources-grid {
   display: grid;
@@ -17,5 +19,7 @@
 }
 
 @media (max-width: 600px) {
-  .resources-grid { grid-template-columns: 1fr; }
+  .resources-grid {
+    grid-template-columns: 1fr;
+  }
 }

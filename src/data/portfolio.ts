@@ -80,7 +80,10 @@ export const devSetup = {
     { name: 'Prettier - Code Formatter', description: 'Auto-format on save' },
     { name: 'GitLens', description: 'Inline Git blame and history' },
     { name: 'Docker', description: 'Manage containers from VS Code' },
-    { name: 'Postman', description: 'Full-featured API testing and development directly in VS Code' },
+    {
+      name: 'Postman',
+      description: 'Full-featured API testing and development directly in VS Code',
+    },
   ],
   terminal: 'Git Bash',
   font: 'JetBrains Mono',

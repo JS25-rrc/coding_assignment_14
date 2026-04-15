@@ -41,5 +41,7 @@
 }
 
 @media (max-width: 500px) {
-  .home-quick { grid-template-columns: 1fr; }
+  .home-quick {
+    grid-template-columns: 1fr;
+  }
 }

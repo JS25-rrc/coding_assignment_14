@@ -31,7 +31,13 @@ const Skills: React.FC = () => (
             <TableCell>
               <div className="skills-labels">
                 {skills.languages.map((s) => (
-                  <Label key={s} text={s} backgroundColor="rgba(79,158,255,0.1)" color="#4f9eff" fontSize="0.85rem" />
+                  <Label
+                    key={s}
+                    text={s}
+                    backgroundColor="rgba(79,158,255,0.1)"
+                    color="#4f9eff"
+                    fontSize="0.85rem"
+                  />
                 ))}
               </div>
             </TableCell>
@@ -43,7 +49,13 @@ const Skills: React.FC = () => (
             <TableCell>
               <div className="skills-labels">
                 {skills.frameworks.map((s) => (
-                  <Label key={s} text={s} backgroundColor="rgba(79,158,255,0.1)" color="#4f9eff" fontSize="0.85rem" />
+                  <Label
+                    key={s}
+                    text={s}
+                    backgroundColor="rgba(79,158,255,0.1)"
+                    color="#4f9eff"
+                    fontSize="0.85rem"
+                  />
                 ))}
               </div>
             </TableCell>
@@ -55,7 +67,13 @@ const Skills: React.FC = () => (
             <TableCell>
               <div className="skills-labels">
                 {skills.tools.map((s) => (
-                  <Label key={s} text={s} backgroundColor="rgba(79,158,255,0.1)" color="#4f9eff" fontSize="0.85rem" />
+                  <Label
+                    key={s}
+                    text={s}
+                    backgroundColor="rgba(79,158,255,0.1)"
+                    color="#4f9eff"
+                    fontSize="0.85rem"
+                  />
                 ))}
               </div>
             </TableCell>
@@ -64,7 +82,10 @@ const Skills: React.FC = () => (
         <TableFooter backgroundColor="#111111" color="#666666">
           <TableRow>
             <TableCell>Total</TableCell>
-            <TableCell>{skills.languages.length + skills.frameworks.length + skills.tools.length} technologies</TableCell>
+            <TableCell>
+              {skills.languages.length + skills.frameworks.length + skills.tools.length}{' '}
+              technologies
+            </TableCell>
           </TableRow>
         </TableFooter>
       </Table>
